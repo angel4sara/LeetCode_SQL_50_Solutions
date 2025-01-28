@@ -1,6 +1,6 @@
 -- # Problem Name: Customer Who Visited but Did Not Make Any Transactions
 -- ## LeetCode Link: https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/?envType=study-plan-v2&envId=top-sql-50
--- 
+--
 ----
 SELECT v.customer_id, COUNT(v.visit_id) AS count_no_trans
 FROM Visits v
